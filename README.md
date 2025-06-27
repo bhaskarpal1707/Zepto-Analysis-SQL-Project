@@ -21,6 +21,7 @@ To simulate an end-to-end SQL data analyst workflow for a fast-paced e-commerce 
 This dataset captures product-level data scraped from Zepto’s online grocery catalog. It reflects how products are managed, priced, and stocked in a real commercial setting.
 
 - **File Name:** `zepto_inventory_data.xlsx` or `zepto_ds.csv`
+- **Dataset Source:** [Kaggle – Zepto Inventory Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 - **Total Records:** 3,732 rows
 - **Columns:** 9
 - **Format:** Excel or CSV – easily importable into PostgreSQL, Python, or Excel
