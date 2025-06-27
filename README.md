@@ -1,5 +1,7 @@
 # 🛒 Zepto E-commerce SQL Data Analyst Project
 
+![]()
+
 Welcome to a hands-on data analyst project built using real-world inventory data from **Zepto**, one of India’s fastest-growing quick-commerce startups. This project simulates an analyst's journey from raw data ingestion to business-driven SQL analysis, using over 3,700 product listings from Zepto's catalog.
 
 ---
@@ -64,7 +66,7 @@ CREATE TABLE zepto (
             discountedSellingPrice, weightInGms, outOfStock, quantity)
 FROM 'data/zepto_ds.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 
-# 🔍 Data Exploration:
+## 🔍 Data Exploration:
 
 -- Total number of records
 ```
@@ -110,7 +112,7 @@ ORDER BY sku_count DESC;
 ```
 📌 Insight: Products appear in multiple variants (e.g., sizes, packs) — normal in retail
 
-# 🧹 Data Cleaning:
+## 🧹 Data Cleaning:
 ```
 -- Identify entries with price = 0
 SELECT * FROM zepto WHERE mrp = 0 OR discountedSellingPrice = 0;
@@ -127,7 +129,7 @@ SET mrp = mrp / 100.0,
 ```
 📌 Insight: Ensures price data is realistic and usable
 
-# 📊 Business Insights via SQL:
+## 📊 Business Insights via SQL:
 
 1. 🔟 Top 10 Best-Value Products
 ```
@@ -209,10 +211,10 @@ ORDER BY total_weight DESC;
 ```
 💡 Insight: Understand physical storage demands by category — relevant for logistics and warehouse teams.
 
-# 📜 License
+## 📜 License
 MIT License – use freely, fork it, and build on it.
 
-# 👨‍💻 About the Author
+## 👨‍💻 About the Author
 Bhaskar Pal — Aspiring Data Analyst
 Breaking down complex data into real-world insights.
 
