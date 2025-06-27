@@ -1,6 +1,6 @@
 # 🛒 Zepto E-commerce SQL Data Analyst Project
 
-![]()
+![image5](https://github.com/user-attachments/assets/201429ed-283d-411c-afdb-763de5e1619e)
 
 Welcome to a hands-on data analyst project built using real-world inventory data from **Zepto**, one of India’s fastest-growing quick-commerce startups. This project simulates an analyst's journey from raw data ingestion to business-driven SQL analysis, using over 3,700 product listings from Zepto's catalog.
 
@@ -42,6 +42,8 @@ This dataset captures product-level data scraped from Zepto’s online grocery c
 | `quantity`               | Units per package or pack count                         |
 
 ---
+
+
 
 ## 🧰 Project Setup:
 
@@ -129,6 +131,8 @@ SET mrp = mrp / 100.0,
     discountedSellingPrice = discountedSellingPrice / 100.0;
 ```
 📌 Insight: Ensures price data is realistic and usable
+
+![image1](https://github.com/user-attachments/assets/5883d4ad-b0fa-4e43-922b-05067ea61e69)
 
 ## 📊 Business Insights via SQL:
 
